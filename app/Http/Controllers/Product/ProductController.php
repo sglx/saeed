@@ -246,7 +246,7 @@ class ProductController extends Controller
 
         $data = base64_decode($data);
         $imageName = time().'.png';
-        file_put_contents('upload/photo/'.$imageName, $data);
+        file_put_contents('upload/sglx/'.$imageName, $data);
         $picnum = $_POST['picnum'];
         $pro_id = Session::get('pro_pic');
         $pro = Products::find($pro_id);
