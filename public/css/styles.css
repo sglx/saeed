@@ -1,0 +1,45 @@
+
+
+body{
+	background-color: #303138;
+	padding-top: 100px;
+}
+.form-control
+{
+	direction: rtl;
+	font-family: BYekan;
+}
+.checkbox
+{
+	direction: rtl;
+	font-family: BYekan;
+
+}
+.remember_me
+{
+	margin-right: 22px;
+}
+.font
+{
+	font-family: BYekan;
+
+}
+.logo
+{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.button_add{
+	width: 100px;
+	height: 100px;
+}
+.btn-upload-img
+{
+	margin-top: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
